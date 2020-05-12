@@ -1,8 +1,12 @@
-import React from 'react'
-import './App.css'
+import React from "react";
+import BookContextProvider from "./contexts/BookContext";
 
-function App () {
-  return <div className='App'></div>
+function App() {
+  return (
+    <div className="App">
+      <BookContextProvider></BookContextProvider>
+    </div>
+  );
 }
 
-export default App
+export default App;
